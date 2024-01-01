@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-27T16:20:35 IST" name="Failed suite [Suite]" finished-at="2023-12-27T16:21:20 IST" duration-ms="44894">
+    <groups>
+      <group name="Regression">
+        <method signature="TC_00_AccountRegistration.Registration()[pri:0, instance:testCases.TC_00_AccountRegistration@53fe15ff]" name="Registration" class="testCases.TC_00_AccountRegistration"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-12-27T16:20:35 IST" name="Test(failed)" finished-at="2023-12-27T16:21:20 IST" duration-ms="44894">
+      <class name="testCases.TC_00_AccountRegistration">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_00_AccountRegistration@53fe15ff]" started-at="2023-12-27T16:20:35 IST" name="setup" finished-at="2023-12-27T16:20:51 IST" duration-ms="16321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Registration()[pri:0, instance:testCases.TC_00_AccountRegistration@53fe15ff]" started-at="2023-12-27T16:20:51 IST" name="Registration" finished-at="2023-12-27T16:21:16 IST" duration-ms="24556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_00_AccountRegistration@53fe15ff]" started-at="2023-12-27T16:21:16 IST" name="teardown" finished-at="2023-12-27T16:21:20 IST" duration-ms="3467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_00_AccountRegistration -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
